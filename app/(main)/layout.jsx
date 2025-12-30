@@ -12,7 +12,7 @@ export default function mainLayout({ children }) {
         <header className="bg-blue-500 p-4 text-white">
           <p>Header</p>
         </header>
-        <div className='flex h-200 items-center justify-center'>
+        <div className='h-200'>
           {children}
         </div>
         <footer className="bg-blue-500 p-4 text-white">
