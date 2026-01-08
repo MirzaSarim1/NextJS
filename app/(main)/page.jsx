@@ -11,6 +11,8 @@ const page = () => {
       <Link href="/articles/123?lang=en" className='underline'>Articles</Link>
       <br />
       <Link href="/order-product" className='underline'>Order Product</Link>
+      <br />
+      <Link href="/hello" className='underline'>Hello API</Link>
     </div>
   )
 }
